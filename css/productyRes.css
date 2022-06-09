@@ -1,0 +1,444 @@
+/* extra  extra large device xxl */
+/* @media (min-width:1400px){} */
+/* extra  large device xl */
+@media (min-width:1200px) and (max-width:1398.98px){
+    #nav .logo{
+        position :relative;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: all .4s ease-out;
+    }
+    #nav .logo.active{
+        left: 0;
+        transform: initial;
+    }
+    #nav_menu > ul{
+        opacity: 0;
+        visibility: hidden;
+        transition: all .4s ease-out;
+    }
+    #nav_menu > ul.active{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+/* large device lg */
+@media (min-width:992px) and (max-width:1199.98px) {
+    #nav .logo{
+        position :relative;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: all .4s ease-out;
+    }
+    #nav .logo.active{
+        left: 0;
+        transform: initial;
+    }
+    #nav_menu > ul{
+        opacity: 0;
+        visibility: hidden;
+        transition: all .4s ease-out;
+    }
+    #nav_menu > ul.active{
+        opacity: 1;
+        visibility: visible;
+    }
+    .sec_tle {
+        padding: 40px 0 40px 0;
+    }
+    /* about us section start */
+    #about_us .about_img img {
+        right: -150px;
+    }
+    #about_us ul li button {
+        font-size: 16px;
+    }
+    /* about us section end */
+    /* portfolio section start */
+    #portfolio {
+        margin-bottom: 0;
+    }
+    #portfolio .counterup {
+        margin-top: 60px;
+    }
+    /* porfolio section end */
+    /* blog section start */
+    #blog .blogSItem .item_content .contentInsite ul li span {
+        font-size: 12px;
+    }
+    #blog .blogSItem .item_content .contentInsite p {
+        font-size: 13px;
+        padding: 12px 0;
+    }
+    /* blog section end */
+    /* contact section start */
+    #contact .contact_item1 .fot_social ul li a {
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+        margin-right: 7px;
+        font-size: 15px;
+    }
+    #contact .contact_us p {
+        font-size: 12px;
+    }
+    #contact .links ul li a {
+        font-size: 12px;
+        padding-bottom: 3px;
+    }
+    #contact .news p {
+        font-size: 12px;
+    }
+    #contact .news span {
+        font-size: 9px;
+    }
+    #contact .news .admin {
+        padding-top: 2px;
+    }
+}
+/* medium device md */
+@media (min-width:768px) and (max-width:991.98px){
+    .sec_tle {
+        padding: 50px 0 40px 0;
+        text-align: center;
+        color: var(--seceond-primary-c);
+    }
+    /* service section start */
+    #service .service_icon {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+    }
+    #service .service_icon img {
+        width: 45px;
+    }
+    #service .service_content::before {
+        height: 47px;
+    }
+    #service .service_content {
+        padding: 32px 16px;
+    }
+    #service .service_content h4 {
+        font-size: 16px;
+        padding-bottom: 14px;
+    }
+    
+    /* service section end */
+    /* about section start */
+    #about_us ul li{
+        margin-right: 50px;
+    }
+    #about_us ul li button {
+        padding: 6px 0;
+        font-size: 16px;
+        padding-right: 10px;
+    }
+    #about_us #myTabContent a {
+        font-size: 14px;
+        margin-top: 18px;
+        padding: 12px 14px;
+    }
+    /* about section end */
+    /* portfolio section start */
+    #portfolio .counterup {
+        margin-top: 70px;
+    }
+    #portfolio .counterup .counter_item span {
+        font-size: 28px;
+    }
+    #portfolio .counterup .counter_item p {
+        font-size: 16px;
+    }
+    /* portfolio section end */
+}
+/* small device sm start*/
+@media (min-width:576px) and (max-width:767.98px) {
+    /* common css section start */
+    .sec_tle {
+        padding: 40px 0 40px 0;
+    }
+    .sec_tle h3 {
+        font-size: 28px;
+        padding-bottom: 16px;
+    }
+    .sec_tle p {
+        font-size: 14px;
+    }
+    /* common css section end */
+    /* top header section start */
+    .header_left {
+        padding: 5px 0;
+        text-align: center;
+    }
+    #top_header .header_middle {
+        transform: skewX(0deg);
+        padding: 10px 0;
+    }
+    #top_header .header_middle p {
+        transform: skewX(0deg);
+    }
+    .header_right {
+        padding: 5px 0;
+    }
+    /* banner section start */
+    #banner .banner_item{
+        height: 560px;
+    }
+    /* banner section end */
+    /*  our services section start */
+    #service {
+        margin-bottom: 40px;
+    }
+    #service .service_item {
+        margin: 24px auto;
+    }
+    #service .service_icon {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+    }
+    #service .service_content {
+        padding: 28px 16px;
+    }
+    #service .service_content h4 {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    #service .service_content p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    /* our services section end */
+    /* about us section start */
+    #about_us .row{
+        margin: 0 12px !important;
+    }
+    /* about us section end */
+    /* porfolio section start */
+    #portfolio {
+        margin-bottom: 20px;
+    }
+    #portfolio .portfolio_item {
+        margin-bottom: 14px;
+    }
+    #portfolio .counterup {
+        margin-top: 30px;
+    }
+    #portfolio .counterup .counter_item {
+        padding: 20px 0;
+    }
+    #portfolio .counterup .counter_item span {
+        font-size: 24px;
+    }
+    #portfolio .counterup .counter_item p {
+        font-size: 16px;
+    }
+    /* porfolio section end */
+}
+/* small device sm end*/
+/* extra small section start*/
+@media (max-width:575.98px) {
+    /* common css start */
+    .sec_tle {
+        padding: 20px 0 30px 0;
+    }
+    .sec_tle h3 {
+        font-size: 24px;
+        padding-bottom: 12px;
+    }
+    .sec_tle p {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    /* common css end */
+    /* banner section start */
+    #banner .banner_item {
+        height: 280px;
+        background-position: right !important;
+    }
+    #banner .banner_item .banner_content h4 {
+        font-size: 20px;
+        padding-bottom: 24px;
+    }
+    #banner .banner_item .banner_content p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #banner .banner_item .banner_content .link {
+        margin-top: 26px;
+    }
+    #banner .banner_item .banner_content .link a {
+        background-color: transparent;
+        font-size: 10px;
+        display: inline;
+        padding: 10px 10px;
+        margin-right: 8px;
+    }
+    /* banner section end */
+    /* our services section start */
+    #service .service_item {
+        margin: 20px 0;
+    }
+    #service .service_icon {
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+    }
+    #service .service_content {
+        padding: 40px 18px;
+    }
+    #service .service_content h4 {
+        font-size: 17px;
+        padding-bottom: 18px;
+    }
+    #service .service_content p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    /* our services section end */
+    /* about us section start */
+    #about_us h4 {
+        font-size: 24px;
+        padding-bottom: 18px;
+    }
+    #about_us ul li button {
+        font-size: 12px;
+        padding: 8px 0;
+        padding-right: 21px;
+    }
+    #about_us #myTabContent {
+        padding-top: 30px;
+    }
+    #about_us #myTabContent p{
+        font-size: 12px;
+        line-height: 24px;
+    }
+    #about_us #myTabContent a {
+        font-size: 14px;
+        margin-top: 22px;
+        padding: 12px 14px;
+    }
+    /* about us section end */
+    /* porfolio section start */
+    #portfolio {
+        margin-bottom: 20px;
+    }
+    #portfolio .portfolio_item {
+        margin-bottom: 14px;
+    }
+    #portfolio .counterup .counter_item {
+        padding: 20px 0;
+    }
+    #portfolio .counterup .counter_item span {
+        font-size: 24px;
+    }
+    #portfolio .counterup .counter_item p {
+        font-size: 16px;
+    }
+    /* porfolio section end */
+    /* our blog section start */
+    #blog .blogSItem .item_content {
+        padding-top: 105px;
+    }
+    #blog .blogSItem .item_content .contentInsite {
+        padding: 12px;
+    }
+    #blog .blogSItem .item_content .contentInsite h4 {
+        font-size: 14px;
+    }
+    #blog .blogSItem .item_content .contentInsite ul li span {
+        font-size: 11px;
+    }
+    #blog .blogSItem .item_content .contentInsite p {
+        font-size: 12px;
+        padding: 12px 0;
+        line-height: 20px;
+    }
+    #blog .blogSItem .item_content .contentInsite .link_btn a {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+    #blog .arrowleft {
+        display: none;
+    }
+    #blog .arrowright {
+        display: none;
+    }
+    /* our blog section end */
+    /*our testimonial section start */
+    #testimonial .sec_tle h3 {
+        font-size: 22px;
+    }
+    #testimonial .tesprofile {
+        padding: 30px 0;
+    }
+    #testimonial .tesitem p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    #testimonial .tesitem h4 {
+        font-size: 14px;
+    }
+    #testimonial .tesitem h6 i {
+        margin-bottom: 14px;
+    }
+    #testimonial .profile_nav {
+        width: 80%;
+    }
+    #testimonial .arrowleft {
+        display: none;
+    }
+    #testimonial .arrowright {
+        display: none;
+    }
+    /* our testimonial section end */
+    /* contact section start */
+    #contact {
+        padding: 30px 0;
+    }
+    #contact h4 {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+    #contact .contact_item1 {
+        padding-bottom: 20px;
+    }
+    #contact .contact_item1 .fot_content {
+        padding: 24px 0;
+    }
+    #contact .contact_item1 .fot_content p {
+        line-height: 22px;
+    }
+    #contact .contact_us{
+        padding: 20px 12px 20px;
+    }
+    #contact .links{
+        padding: 20px 12px 20px;
+    }
+    #contact .links ul li{
+        width: 50%;
+    }
+    #contact .links ul li a {
+        padding-bottom: 8px;
+    }
+    #contact .news .admin {
+        padding-top: 2px;
+    }
+    #contact .news p{
+        font-size: 12px;
+    }
+    #contact .news i{
+        font-size: 9px;
+    }
+    #contact .news span{
+        font-size: 9px;
+    }
+    /* contact section end */
+    /* footer section start */
+    footer p {
+        padding: 14px 0;
+        font-size: 12px;
+    }
+    /* footer section end */
+}
+/* extra small section end */
